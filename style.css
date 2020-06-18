@@ -1,0 +1,424 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+body, html {
+  font-family: "Poppins", sans-serif;
+  padding: 0;
+  margin: 0;
+  position: relative;
+  height: 100%;
+}
+
+.modal-content {
+  width: 100%;
+  height: 100%;
+  display: none;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 9999;
+}
+.modal-content .inn {
+  background-color: #fff;
+  height: 500px;
+  float: right;
+  width: 80%;
+  padding: 20px 0px;
+}
+.modal-content .cancel {
+  height: 30px;
+  width: 100%;
+  padding: 10px 30px 30px 0;
+}
+.modal-content .cancel .fa-times {
+  font-size: 20px;
+  float: right;
+}
+.modal-content ul {
+  margin: auto;
+  padding: 0;
+}
+.modal-content ul li {
+  list-style: none;
+  padding: 15px 30px;
+}
+.modal-content ul li a {
+  color: #444444;
+}
+.modal-content ul li a button {
+  height: 45px;
+  padding: 5px;
+  color: #fff;
+  border: none;
+  width: 160px;
+  margin-top: -10px;
+  font-size: 15px;
+  border-radius: 5px;
+  background-color: rgba(17, 130, 218, 0.7);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.16);
+}
+
+section {
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(to bottom right, rgba(0, 122, 32, 0.9), rgba(166, 48, 18, 0.9)), url(images/ban.jpg);
+  background-position: 70% 15%;
+  background-size: cover;
+  position: relative;
+  padding-bottom: 100px;
+}
+section header {
+  width: 100%;
+  height: 60px;
+  padding: 30px 80px 0 80px;
+}
+section header .logo {
+  float: left;
+  margin-top: 10px;
+  margin-left: 25px;
+}
+section header .logo img {
+  width: 180px;
+  height: 36px;
+}
+section header ul {
+  float: right;
+  padding-top: 10px;
+}
+section header ul li {
+  list-style: none;
+  float: left;
+  margin-right: 35px;
+}
+section header ul li a {
+  color: #fff;
+  font-size: 17px;
+  transition: 0.3s ease-in-out;
+  font-weight: 500;
+}
+section header ul li a button {
+  height: 45px;
+  padding: 5px;
+  color: #fff;
+  border: none;
+  width: 150px;
+  margin-top: -10px;
+  font-size: 15px;
+  font-weight: 700;
+  border-radius: 5px 25px 25px 5px;
+  background-color: #FF0A0A;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.16);
+}
+section header ul li a:hover {
+  text-decoration: none;
+  color: #FF0A0A;
+  font-size: 16px;
+}
+section header i {
+  float: right;
+  display: none !important;
+}
+@media only screen and (max-width: 320px) {
+  section header {
+    padding: 30px 15px 0 15px;
+  }
+  section header .logo {
+    margin-left: 0;
+  }
+  section header .logo img {
+    width: 150px;
+    height: 28px;
+  }
+  section header ul {
+    display: none;
+  }
+  section header i {
+    display: block !important;
+    margin-right: 30px;
+    margin-top: 15px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+}
+@media only screen and (min-width: 321px) and (max-width: 540px) {
+  section header {
+    padding: 30px 0px 0 30px;
+  }
+  section header .logo {
+    margin-left: 0;
+  }
+  section header .logo img {
+    width: 150px;
+    height: 28px;
+  }
+  section header ul {
+    display: none;
+  }
+  section header i {
+    display: block !important;
+    margin-right: 30px;
+    margin-top: 15px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  section .container {
+    padding: 0 30px;
+  }
+}
+@media only screen and (min-width: 541px) and (max-width: 720px) {
+  section .container {
+    padding: 0 50px;
+  }
+  section header {
+    padding: 30px 35px 0 35px;
+  }
+  section header ul {
+    display: none;
+  }
+  section header i {
+    display: block !important;
+    margin-right: 20px;
+    margin-top: 15px;
+    font-size: 20px;
+    cursor: pointer;
+  }
+}
+.caption {
+  color: #fff;
+  padding-top: 150px;
+}
+.caption .caption_text {
+  width: 100%;
+}
+.caption h2 {
+  font-weight: 700;
+  font-size: 45px;
+  letter-spacing: 1.2px;
+  line-height: 50px;
+}
+.caption p {
+  line-height: 30px;
+  letter-spacing: 0.7px;
+  font-size: 22px;
+  margin-top: 20px;
+}
+.caption .links {
+  margin-top: 100px;
+}
+.caption .links a button.campaign {
+  height: 50px;
+  padding: 5px;
+  color: #FF0A0A;
+  border: none;
+  width: 200px;
+  margin-top: -10px;
+  font-size: 17px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  background-color: #fff;
+}
+.caption .links a .influencer {
+  background-color: transparent;
+  border: none;
+  margin-left: 20px;
+}
+.caption .col-md-6 .image-banner {
+  overflow: hidden;
+  margin-top: -20px;
+}
+.caption .col-md-6 .image-banner img {
+  margin-top: -100px;
+  margin-left: -100px;
+  width: 700px;
+  height: 620px;
+}
+@media only screen and (max-width: 320px) {
+  .caption {
+    padding-top: 20px;
+  }
+  .caption .row {
+    width: 100%;
+    margin-top: 60px;
+  }
+  .caption .row .col-md-6 {
+    padding-right: 0;
+  }
+  .caption .row .col-md-6 p {
+    text-align: justify;
+  }
+  .caption .row .col-md-6 .links {
+    margin-top: 30px;
+  }
+  .caption .row .col-md-6 .links a button {
+    float: left;
+    display: inline-block;
+  }
+  .caption .row .col-md-6 .links a button.campaign {
+    height: 40px;
+    width: 150px;
+    font-size: 17px;
+  }
+  .caption .row .col-md-6 .links a .influencer {
+    margin-left: 0;
+    margin-top: 15px;
+  }
+  .caption h2 {
+    font-size: 25px;
+    line-height: 25px;
+  }
+  .caption p {
+    font-size: 13px;
+    line-height: 25px;
+  }
+  .caption .image-banner-contain {
+    display: none;
+  }
+}
+@media only screen and (min-width: 321px) and (max-width: 540px) {
+  .caption {
+    padding-top: 20px;
+  }
+  .caption .row {
+    width: 100%;
+    margin-top: 60px;
+  }
+  .caption .row .col-md-6 {
+    padding-right: 0;
+  }
+  .caption .row .col-md-6 .links {
+    margin-top: 30px;
+  }
+  .caption .row .col-md-6 .links a button.campaign {
+    height: 40px;
+    width: 150px;
+    font-size: 17px;
+  }
+  .caption .row .col-md-6 .links a .influencer {
+    margin-left: 0;
+    margin-top: 15px;
+  }
+  .caption h2 {
+    font-size: 25px;
+    line-height: 25px;
+  }
+  .caption p {
+    font-size: 13px;
+    line-height: 25px;
+  }
+  .caption .image-banner-contain {
+    display: none;
+  }
+}
+@media only screen and (min-width: 541px) and (max-width: 720px) {
+  .caption {
+    padding-top: 20px;
+  }
+  .caption .row {
+    width: 100%;
+    margin-top: 60px;
+  }
+  .caption .row .col-md-6 {
+    padding-right: 0;
+  }
+  .caption .row .col-md-6 p {
+    text-align: justify;
+  }
+  .caption .row .col-md-6 .links {
+    margin-top: 30px;
+  }
+  .caption .row .col-md-6 .links a button {
+    float: left;
+    display: inline-block;
+  }
+  .caption .row .col-md-6 .links a button.campaign {
+    height: 40px;
+    width: 150px;
+    font-size: 17px;
+  }
+  .caption .row .col-md-6 .links a .influencer {
+    margin-left: 15px;
+  }
+  .caption h2 {
+    font-size: 25px;
+    line-height: 25px;
+  }
+  .caption p {
+    font-size: 13px;
+    line-height: 25px;
+  }
+  .caption .image-banner-contain {
+    display: none;
+  }
+}
+
+.introduction {
+  margin-top: 100px;
+}
+.introduction .row .col-md-6 .text {
+  width: 80%;
+}
+.introduction .row .col-md-6 .text h5 {
+  font-weight: 700;
+  color: #FF0A0A;
+}
+.introduction .row .col-md-6 .text h2 {
+  color: #000;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 40px;
+}
+.introduction .row .col-md-6 .text p {
+  font-size: 14px;
+}
+.introduction .row .col-md-6 .image {
+  width: 90%;
+  float: right;
+  height: 450px;
+  background-image: url(images/intro.jpg);
+  background-size: cover;
+  background-position: top;
+}
+
+.mission {
+  background-color: rgba(240, 240, 240, 0.6);
+  height: 600px;
+  margin-top: 100px;
+}
+.mission .row .profile-picture {
+  padding: 0;
+  display: flex;
+}
+.mission .row .profile-picture .cover-background {
+  width: 50%;
+  height: 600px;
+  background-color: #007A20;
+}
+.mission .row .profile-picture .pics {
+  width: 50%;
+  height: 450px;
+  background-image: url(images/mission.jpg);
+  background-position: 10% 80%;
+  background-size: cover;
+  margin-top: 80px;
+  margin-left: -200px;
+}
+.mission .row .mission-text {
+  padding: 80px 0 0 0;
+}
+.mission .row .mission-text h5 {
+  font-weight: 700;
+  color: #FF0A0A;
+}
+.mission .row .mission-text h2 {
+  color: #000;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 40px;
+}
+.mission .row .mission-text p {
+  font-size: 14px;
+}
+
+/*# sourceMappingURL=style.css.map */
