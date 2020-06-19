@@ -20,7 +20,8 @@ $(document).ready(function () {
 	
 		$("html,body").animate({
 			scrollTop : $element
-		}, 900);
+    }, 900);
+    $(".modal-content").fadeOut();
 	});
  
 

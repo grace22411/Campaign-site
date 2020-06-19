@@ -47,15 +47,15 @@ body, html {
   color: #444444;
 }
 .modal-content ul li a button {
-  height: 45px;
+  height: 40px;
   padding: 5px;
   color: #fff;
   border: none;
-  width: 160px;
+  width: 140px;
   margin-top: -10px;
   font-size: 15px;
   background-color: #FF0A0A;
-  border-radius: 5px 25px 25px 5px;
+  border-radius: 5px 20px 20px 5px;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.16);
 }
 
