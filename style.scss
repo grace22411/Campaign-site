@@ -464,6 +464,7 @@ section{
         margin-top: 30px;
         .row{
             .col-md-6{
+                
                 .text{
                     width:100%;
                     h5{
@@ -472,6 +473,9 @@ section{
                     h2{
                         font-size:30px;
                         line-height: 30px;
+                    }
+                    p{
+                        font-size:14px;
                     }
                 }
                 .image{
@@ -486,6 +490,33 @@ section{
         margin-top: 30px;
         .row{
             .col-md-6{
+                padding:0 30px;
+                .text{
+                    width:100%;
+                    h5{
+                        font-size:15px;
+                    }
+                    h2{
+                        font-size:30px;
+                        line-height: 30px;
+                    }
+                    p{
+                        font-size:14px;
+                    }
+                }
+                .image{
+                    width:100%;
+                    height:300px;
+                    margin-top: 30px;;
+                }
+            }
+        }
+    }
+    @media only screen and (min-width:541px) and (max-width:720px){
+        margin-top: 30px;
+        .row{
+            .col-md-6{
+                padding:0 50px;
                 .text{
                     width:100%;
                     h5{
@@ -503,9 +534,6 @@ section{
                 }
             }
         }
-    }
-    @media only screen and (min-width:541px) and (max-width:720px){
-        
     }
 }
 
@@ -638,7 +666,7 @@ section{
                 display: none;;
             }
             .mission-text{
-                padding:20px 15px 0 15px;
+                padding:20px 30px 0 30px;
                 h5{
                     font-size:16px;
                 }
@@ -660,7 +688,35 @@ section{
         }
     }
     @media only screen and (min-width:541px) and (max-width:720px){
-        
+        margin-top: 50px;
+        height:auto;
+        padding-bottom: 40px;
+        background-color: #fff;
+        .row{
+            .profile-picture{
+                display: none;;
+            }
+            .mission-text{
+                padding:20px 50px 0 50px;
+                h5{
+                    font-size:16px;
+                }
+                h2{
+                    font-size:30px;
+                }
+                .container{
+                    padding-right: 0;
+                    .row{
+                        .col-md-3{
+                            h3{
+                                margin-left: 0;
+                                text-align: center;;
+                            }
+                        }
+                    }
+                }
+            }
+        }
     }
 }
 
