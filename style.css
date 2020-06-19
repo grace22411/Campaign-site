@@ -525,6 +525,12 @@ section header i {
   font-weight: 700;
   color: #FF0A0A;
 }
+.mission .row .mission-text h2 {
+  color: #000;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 40px;
+}
 .mission .row .mission-text p {
   font-size: 14px;
 }
@@ -553,16 +559,16 @@ section header i {
   background-image: url(images/health.jpeg);
 }
 .mission .row .mission-text .container .row .col-md-3 .fourth {
-  background-image: url(images/sport.jpg);
+  background-image: url(images/sport.jpeg);
 }
 .mission .row .mission-text .container .row .col-md-3 .fifth {
-  background-image: url(images/tourism.jpg);
+  background-image: url(images/tourism.jpeg);
 }
 .mission .row .mission-text .container .row .col-md-3 .sixth {
-  background-image: url(images/woman.jpg);
+  background-image: url(images/woman.jpeg);
 }
 .mission .row .mission-text .container .row .col-md-3 .seventh {
-  background-image: url(images/youth.jpg);
+  background-image: url(images/youth.jpeg);
 }
 .mission .row .mission-text .container .row .col-md-3 h3 {
   font-size: 14px;
