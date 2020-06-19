@@ -550,13 +550,13 @@ section header i {
   background-position: center;
 }
 .mission .row .mission-text .container .row .col-md-3 .first {
-  background-image: url(images/industry.jpg);
+  background-image: url(images/industry.jpeg);
 }
 .mission .row .mission-text .container .row .col-md-3 .second {
-  background-image: url(images/agriculture.jpg);
+  background-image: url(images/agriculture.jpeg);
 }
 .mission .row .mission-text .container .row .col-md-3 .third {
-  background-image: url(images/health.jpg);
+  background-image: url(images/health.jpeg);
 }
 .mission .row .mission-text .container .row .col-md-3 .fourth {
   background-image: url(images/sport.jpg);
