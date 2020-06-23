@@ -513,7 +513,7 @@ section header i {
   width: 50%;
   height: 500px;
   background-image: url(images/mission.jpg);
-  background-position: 10% 80%;
+  background-position: center;
   background-size: cover;
   margin-top: 80px;
   margin-left: -150px;
@@ -743,6 +743,146 @@ footer a {
   color: #f0f0f0;
   font-size: 17px;
   margin-right: 20px;
+}
+
+.about-me {
+  background-image: linear-gradient(to right, black, rgba(0, 0, 0, 0.4)), url(images/tripple.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+.about-me .caption {
+  padding-top: 220px;
+}
+@media only screen and (max-width: 320px) {
+  .about-me {
+    background-size: cover;
+    background-position: top;
+  }
+  .about-me h4 {
+    font-size: 20px;
+  }
+  .about-me .caption {
+    padding-top: 150px;
+  }
+}
+@media only screen and (min-width: 321px) and (max-width: 540px) {
+  .about-me {
+    background-size: cover;
+    background-position: top;
+  }
+  .about-me h4 {
+    font-size: 18px;
+  }
+  .about-me .caption {
+    padding-top: 80px;
+  }
+}
+@media only screen and (min-width: 541px) and (max-width: 720px) {
+  .about-me {
+    background-size: cover;
+    background-position: top;
+  }
+  .about-me h4 {
+    font-size: 20px;
+  }
+}
+
+.story {
+  margin-top: 70px;
+}
+.story .row .col-md-6 h1 {
+  margin-bottom: 10px;
+  font-size: 28px;
+  font-weight: 600;
+  color: #007A20;
+}
+.story .row .col-md-6 .accordion {
+  width: 90%;
+}
+.story .row .col-md-6 .accordion .card {
+  border: none !important;
+}
+.story .row .col-md-6 .accordion .card .card-header {
+  background-color: #F0F0F0;
+  padding: 5px 15px;
+  margin-top: 10px;
+}
+.story .row .col-md-6 .accordion .card .card-header h5 {
+  color: #444444;
+  text-decoration: none;
+}
+.story .row .col-md-6 .accordion .card .card-header h5 button {
+  font-size: 18px;
+  width: 100%;
+  text-align: left !important;
+  text-decoration: none;
+  margin-bottom: 0;
+  color: #444444;
+}
+.story .row .col-md-6 .accordion .card .card-header h5 button i {
+  float: right;
+  margin-top: 5px;
+}
+.story .row .col-md-6 .accordion .card-body {
+  border: 1px solid rgba(68, 68, 68, 0.6) !important;
+  padding: 10px 15px;
+  font-size: 14px;
+  text-align: justify;
+}
+.story .row .col-md-6 .story-picture {
+  width: 80%;
+  height: 400px;
+  margin-top: 20px;
+  background-image: url(images/into.jpg);
+  background-position: 0 20%;
+  background-size: cover;
+  float: right;
+}
+@media only screen and (max-width: 320px) {
+  .story {
+    margin-top: 30px;
+  }
+  .story .row .col-md-6 .accordion {
+    width: 100%;
+  }
+  .story .row .col-md-6 .story-picture {
+    width: 100%;
+    margin-top: 30px;
+    height: 300px;
+    margin-bottom: 20px;
+  }
+}
+@media only screen and (min-width: 321px) and (max-width: 540px) {
+  .story {
+    margin-top: 30px;
+  }
+  .story .row .col-md-6 {
+    padding: 0 30px;
+  }
+  .story .row .col-md-6 .accordion {
+    width: 100%;
+  }
+  .story .row .col-md-6 .story-picture {
+    width: 100%;
+    margin-top: 30px;
+    height: 300px;
+    margin-bottom: 20px;
+  }
+}
+@media only screen and (min-width: 541px) and (max-width: 720px) {
+  .story .row .col-md-6 {
+    padding: 0 50px;
+  }
+  .story .row .col-md-6 .accordion {
+    width: 100%;
+  }
+  .story .row .col-md-6 .story-picture {
+    width: 100%;
+    margin-top: 30px;
+    height: 350px;
+    margin-bottom: 20px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

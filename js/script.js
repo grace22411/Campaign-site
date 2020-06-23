@@ -22,8 +22,10 @@ $(document).ready(function () {
 			scrollTop : $element
     }, 900);
     $(".modal-content").fadeOut();
-	});
- 
+  });
+  
+
+
 
 });
 
