@@ -90,7 +90,12 @@ section{
             float:left;
             margin-top:10px;
             margin-left:25px;
+            .party-logo{
+                width:50px;
+                height:45px !important ;
+            }
         }
+
 
         .mobile{
             display: none;
@@ -151,10 +156,17 @@ section{
            padding:15px 15px 0 15px; 
            background-color: #fff;
            .logo{
-               margin-left: 0;
+            margin-left: 0px;
+            margin-top: 0;
+            display: flex;
+            width:60%;
                img{
                    width:40px;
                    height:30px;
+               }
+               .party-logo{
+                width:40px;
+                height:35px !important;
                }
            }
            .desktop{
@@ -184,13 +196,20 @@ section{
         background-image:linear-gradient(to bottom right, rgba(#007a20,0.7),rgba(#a63012,0.7)),url(images/mission.jpg);
         background-position: 150% 15%;
         header{
-            padding:10px 0px 0 30px; 
+            padding:15px 15px 0 15px; 
             background-color: #fff;
             .logo{
-                margin-left: 0;
+                margin-left: 10px;
+                margin-top: 0;
+                display: flex;
+                width:60%;
                 img{
-                    width:35px;
-                    height:20px;
+                    width:40px;
+                    height:30px;
+                }
+                .party-logo{
+                 width:40px;
+                 height:35px !important;
                 }
             }
             .desktop{
@@ -217,16 +236,26 @@ section{
          
     }
     @media only screen and (min-width:541px) and (max-width:720px){
-        .container{
-            padding: 0 50px;
-        }
+        
+        height: 400px;
+        background-image:linear-gradient(to bottom right, rgba(#007a20,0.7),rgba(#a63012,0.7)),url(images/mission.jpg);
+        background-position: 150% 15%;
         header{
-            padding:30px 35px 0 35px;
+            padding:15px 15px 0 15px; 
+           
+            background-color: #fff;
             .logo{
-                margin-left: 0;
+                margin-left: 20px;
+                margin-top: 0;
+                display: flex;
+                width:60%;
                 img{
                     width:40px;
                     height:30px;
+                }
+                .party-logo{
+                 width:40px;
+                 height:35px !important;
                 }
             }
             .desktop{
@@ -239,13 +268,18 @@ section{
                 display: none;
             }
             i{
-                display: block !important;
-                margin-right:20px;
-                margin-top:15px;
-                font-size:20px;
-                cursor: pointer;
-            }
+             display: block !important;
+             margin-right:30px;
+             margin-top:15px;
+             font-size:16px;
+             cursor: pointer;
+         }
         }
+        .container{
+            padding:0 30px;
+        }
+       
+         
     }
     @media only screen and (min-width:721px) and (max-width:1024px){
 
@@ -810,9 +844,7 @@ footer{
         padding-top:220px;
     }
     @media only screen and (max-width:320px){
-        // background-image:linear-gradient(to bottom right, rgba(#000,0.4),rgba(#000,0.8)),url(images/ban.jpg);
-        background-size: cover;
-        background-position: top;
+      
         h4{
             font-size:20px;
         }
@@ -821,9 +853,7 @@ footer{
         }
     }
     @media only screen and (min-width:321px) and (max-width:540px){
-        // background-image:linear-gradient(to bottom right, rgba(#000,0.4),rgba(#000,0.8)),url(images/ban.jpg);
-        background-size: cover;
-        background-position: top;
+       
         h4{
             font-size:18px;
         }
@@ -832,9 +862,7 @@ footer{
         }
     }
     @media only screen and (min-width:541px) and (max-width:720px){
-        // background-image:linear-gradient(to bottom right, rgba(#000,0.4),rgba(#000,0.8)),url(images/ban.jpg);
-        background-size: cover;
-        background-position: top;
+        
         h4{
             font-size:20px;
         }
